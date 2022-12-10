@@ -13,28 +13,29 @@ const Contact = () => {
         <div className={styles.contactus}>
           <span className={styles.contacttitle}>Contact Us</span>
           <span className={styles.contactdesc}>
-            Need to get in touch with us? Either fill out the form with your
-            inquiry or find the department email you'd like to contact below.
+            {
+              "Need to get in touch with us? Either fill out the form with your inquiry or find the department email you'd like to contact below."
+            }
           </span>
         </div>
         {/* right cont */}
         <div className={styles.contactus_form}>
           <div className={styles.sub_contactus_form}>
             <div className={styles.fieldcontainers}>
-              <span className={styles.titlefield}>FullName*:</span>
+              <span className={styles.titlefield}>FullName:</span>
               <input className={styles.inputfield}></input>
             </div>
             <div className={styles.fieldcontainers}>
-              <span className={styles.titlefield}>Title*:</span>
+              <span className={styles.titlefield}>Title:</span>
               <input className={styles.inputfield}></input>
             </div>
             <div className={styles.fieldcontainers}>
-              <span className={styles.titlefield}>Email*:</span>
+              <span className={styles.titlefield}>Email:</span>
               <input className={styles.inputfield}></input>
             </div>
             <div className={styles.fieldcontainers}>
               <span className={styles.titlefield}>
-                What can we help you with? *:
+                What can we help you with? :
               </span>
               <textarea className={styles.inputparafield}></textarea>
             </div>
