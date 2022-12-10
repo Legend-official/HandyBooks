@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./header.module.css";
-import booklogo from "../../assests/Book.png";
+import booklogo from "../../assests/book.png";
 import Link from "next/link";
 import { ThreeLines } from "../Icons";
 import { useState } from "react";
