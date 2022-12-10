@@ -1,0 +1,87 @@
+.main {
+  display: flex;
+  height: 85vh;
+  align-items: center;
+}
+
+.image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.errortext {
+  color: #ff8000;
+  font-size: 150px;
+  font-weight: bold;
+}
+.pagenotfound {
+  font-size: 40px;
+  color: #8a4500;
+}
+.stolen {
+  font-size: 60px;
+  color: #8a4500;
+  font-weight: bold;
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 800px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .main {
+    flex-direction: column;
+  }
+  .image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    width: 100%;
+    margin-top: 0;
+  }
+  .errortext {
+    font-size: 100px;
+    text-align: center;
+  }
+  .pagenotfound {
+    text-align: center;
+    font-size: 30px;
+  }
+  .stolen {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-device-width: 350px) and (max-device-width: 600px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .main {
+    flex-direction: column;
+  }
+  .image {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    width: 100%;
+    margin-top: 0;
+  }
+  .errortext {
+    font-size: 100px;
+    text-align: center;
+  }
+  .pagenotfound {
+    text-align: center;
+    font-size: 30px;
+  }
+  .stolen {
+    text-align: center;
+    font-size: 40px;
+  }
+}

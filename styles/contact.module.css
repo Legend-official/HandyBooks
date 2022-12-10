@@ -1,0 +1,139 @@
+.main {
+  display: flex;
+  height: 85vh;
+  align-items: center;
+  justify-content: center;
+}
+.contactus {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contacttitle {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ff8000;
+}
+.contactdesc {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  text-align: center;
+  font-weight: bold;
+  color: #8a4500;
+}
+.contactus_form {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.sub_contactus_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fieldcontainers {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.titlefield {
+  font-size: 12px;
+  font-weight: bold;
+}
+.inputfield {
+  height: 40px;
+}
+.inputparafield {
+  display: flex;
+  min-height: 80px;
+  max-height: 200px;
+  min-width: 400px;
+  max-width: 400px;
+  padding-top: 8px;
+}
+
+.inputfield,
+.inputparafield {
+  padding-left: 10px;
+  width: 400px;
+  outline: none;
+  border-width: 0px 3px 3px 0px;
+  border-radius: 8px;
+  border-color: #ff8000;
+  font-weight: bold;
+}
+
+.contactbtn {
+  cursor: pointer;
+  border-radius: 8px;
+  border-color: #ff8000;
+  border-width: 1px 3px 3px 1px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+  font-weight: bold;
+  background-color: white;
+}
+
+.noselect {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+/* ipad screen size */
+@media only screen and (min-device-width: 600px) and (max-device-width: 800px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .main {
+    flex-direction: column;
+  }
+  .contacttitle {
+    margin-top: 50px;
+  }
+  .contactdesc {
+    margin-left: -20%;
+    margin-right: -20%;
+  }
+
+  .contactus_form {
+    margin-top: 50px;
+  }
+}
+/* mobile screen sizes */
+@media only screen and (min-device-width: 350px) and (max-device-width: 600px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .main {
+    flex-direction: column;
+  }
+  .contacttitle {
+    margin-top: 50px;
+    font-size: 55px;
+    width: 400px;
+    text-align: center;
+  }
+  .contactdesc {
+    font-size: 13px;
+    margin-left: -30%;
+    margin-right: -30%;
+  }
+
+  .contactus_form {
+    margin-top: 50px;
+  }
+
+  .inputfield{
+    width: 300px;
+  }
+  .inputparafield{
+    max-width: 300px;
+    min-width: 300px;
+    width: 300px;
+  }
+}

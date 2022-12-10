@@ -1,0 +1,70 @@
+[
+    [],[],[],[],[],[{
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449081322360882/math-1.jpg",
+        "category": "Math",
+        "title": "Math Book",
+        "desc": "PART-I"
+    },{
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449081553031208/math-2.jpg",
+        "category": "Math",
+        "title": "Math Book",
+        "desc": "PART-II"
+    }],
+    [   {
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449081322360882/math-1.jpg",
+        "category": "Math",
+        "title": "Math Book",
+        "desc": "PART-I"
+    },{
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449081553031208/math-2.jpg",
+        "category": "Math",
+        "title": "Math Book",
+        "desc": "PART-II"
+    },{
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449080382824548/chem-1.jpg",
+        "category": "Chemistry",
+        "title": "Chemistry",
+        "desc": "PART-I"
+    },{
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449080714182686/chem-2.jpg",
+        "category": "Chemistry",
+        "title": "Chemistry",
+        "desc": "PART-II"
+    },{
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449079573323916/accounts-1.jpg",
+        "category": "Accounts",
+        "title": "Accountancy",
+        "desc": "PART-I"
+    },{
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449079804018809/accounts-2.jpg",
+        "category": "Accounts",
+        "title": "Accountancy",
+        "desc": "PART-II"
+    },{
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449080131170354/biology.jpg",
+        "category": "Biology",
+        "title": "Biology",
+        "desc": "Core Book"
+    },{
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449081762762812/physics-1.jpg",
+        "category": "Physics",
+        "title": "Physics",
+        "desc": "PART-I"
+    },{
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449082022801508/physics-2.jpg",
+        "category": "Physics",
+        "title": "Physics",
+        "desc": "PART-II"
+    },{
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449081062301778/flamingo.jpg",
+        "category": "English",
+        "title": "Flamingo",
+        "desc": "Core Book"
+    },{
+        "image": "https://media.discordapp.net/attachments/987688724592742472/1017449639831670825/vistas.jpg",
+        "category": "English",
+        "title": "Vistas",
+        "desc": "Supplementary"
+    }
+]
+]

@@ -1,0 +1,38 @@
+.container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 5px;
+}
+.orange {
+  background-color: #ff8000;
+}
+.notorange {
+  background-color: #fbe2d1;
+}
+.leftlogo {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.rightlogo {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.showshadow {
+  box-shadow: 3px 3px 10px 2px #ffa33a;
+}
+.title {
+  font-weight: bold;
+}
+.black {
+  color: black;
+}
+.white {
+  color: #fbe2d1;
+}
+.normal{
+  margin-left: 5px;
+}
